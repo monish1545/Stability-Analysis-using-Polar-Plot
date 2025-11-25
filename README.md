@@ -6,8 +6,6 @@ Computer with MATLAB software
 
 ## Theory:
 
-
-
 ## Procedure:
 	Open MATLAB software
 	Open a new script file.
@@ -17,7 +15,6 @@ Computer with MATLAB software
 	Also determine the stability.
 
 ## Program: 
-
 num=[10]
 den=[0.1 0.7 1 0]
 sys=tf(num,den)
@@ -38,13 +35,13 @@ end
 
 
 ## Output:
-<img width="702" height="629" alt="image" src="https://github.com/user-attachments/assets/cc1eba6e-26ad-4f25-8a84-e64df4ca3013" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b908f8a2-e425-48d8-80c1-e315fdce0d20" />
 
 
 ## Result:
 Thus the polar plot for the given transfer function was drawn and verified using MATLAB. <br>
 Gain margin = 0.7 <br>
-Phase Margin = -8.88 <br>
-Gain crossover frequency = 3.75 <br>
-Phase crossover frequency =  3.16 <br>
-The system is  unstable
+Phase Margin = -8.8865 <br>
+Gain crossover frequency = 3.7565 <br>
+Phase crossover frequency = 3.1623 <br>
+The system is unstable
